@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 const DashboardPage = () => {
-  const isAuthenticated = true
+  const isAuthenticated = false
 
   // changing const to let because we are changing the variable to Dashboard if Authenticated. Using const will not work
   let children = (
